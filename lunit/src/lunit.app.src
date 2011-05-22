@@ -1,0 +1,12 @@
+{application, lunit,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { lunit_app, []}},
+  {env, []}
+ ]}.
